@@ -1,0 +1,3 @@
+*.log
+token.pickle
+__pycache__
