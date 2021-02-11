@@ -1,3 +1,4 @@
 *.log
 token.pickle
 __pycache__
+venv
