@@ -11,7 +11,7 @@ class Browser:
 def get_webdriver() -> WebDriver:
     plat = Config.platform
     sep = get_sys_sep(plat)
-    base_path = '..'+sep+'webdrivers'+sep
+    base_path = 'webdrivers'+sep
     possible_browsers = [
         Browser(webdriver.Chrome, base_path+'chromedriver'+sep, webdriver.ChromeOptions()),
         Browser(webdriver.Firefox, base_path+'geckodriver'+sep, webdriver.FirefoxOptions())
