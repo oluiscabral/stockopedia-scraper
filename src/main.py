@@ -1,4 +1,4 @@
-from stockopedia_website import StockopediaWebsite
+from website import StockopediaWebsite
 from scraped_data import MainScrapedData
 from james_template import JamesTemplate
 from config import Config

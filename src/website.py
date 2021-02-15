@@ -1,7 +1,7 @@
 from selenium.webdriver.remote.webdriver import WebDriver
 import webdriver_utils
 import webdriver_factory
-from stockopedia_main_webpage import StockopediaMainWebpage
+from main_webpage import StockopediaMainWebpage
 import time
 
 class StockopediaWebsite:

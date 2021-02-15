@@ -1,7 +1,7 @@
 from selenium.webdriver.remote.webdriver import WebDriver
 from webpage import Webpage
 from scraped_data import ScrapedData, MainScrapedData
-from stockopedia_compare_webpage import StockopediaCompareWebpage
+from compare_webpage import StockopediaCompareWebpage
 
 class StockopediaMainWebpage(Webpage):
     def __init__(self, webdriver: WebDriver, base_url:str, rel_url:str):
